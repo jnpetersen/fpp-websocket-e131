@@ -1,7 +1,18 @@
 {
-    "pluginName": "E1.31 WebSocket Transmitter",
-    "pluginDescription": "Streams E1.31 data over WebSocket for external device control.",
+    "repoName": "fpp-websocket-e131",
+    "name": "E1.31 WebSocket Transmitter Plugin for FPP",
     "author": "Your Name",
-    "version": "1.0",
-    "license": "MIT"
+    "description": "This plugin streams E1.31 DMX data to a WebSocket server, allowing external devices to display pixel data in real-time.",
+    "homeURL": "https://github.com/jnpetersen/fpp-websocket-e131",
+    "srcURL": "https://github.com/jnpetersen/fpp-websocket-e131.git",
+    "bugURL": "https://github.com/jnpetersen/fpp-websocket-e131/issues",
+    "allowUpdates": 1,
+    "versions": [
+        {
+            "minFPPVersion": "5.0",
+            "maxFPPVersion": "0",
+            "branch": "main",
+            "sha": ""
+        }
+    ]
 }
