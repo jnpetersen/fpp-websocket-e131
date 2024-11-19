@@ -1,7 +1,34 @@
 {
-    "pluginName": "E1.31 WebSocket Transmitter",
-    "pluginDescription": "Transmits E1.31 data over WebSocket for external devices.",
+    "repoName": "fpp-websocket-e131",
+    "name": "E1.31 WebSocket Transmitter",
+    "description": "Transmits E1.31 data over WebSocket for external devices.",
     "author": "James Petersen",
+    "homeURL": "https://github.com/jnpetersen/fpp-websocket-e131",
+	"srcURL": "https://github.com/jnpetersen/fpp-websocket-e131.git",
+	"bugURL": "https://github.com/jnpetersen/fpp-websockdet-e131/issues",
     "version": "1.0",
-    "license": "MIT"
+    "license": "MIT",
+    "allowUpdates": 1,
+    "versions": [
+		{
+			"minFPPVersion": "2.0",
+			"maxFPPVersion": "0",
+			"branch": "master",
+			"sha": "",
+			"dependencies": {
+			    "plugins": [
+					"fpp-plugin-CoolPlugin1",
+					"fpp-plugin-CoolPlugin2"
+				],
+			    "packages": [
+					"system-package-name1",
+					"system-package-name2"
+				],
+				"scripts": [
+					"Control/script-repository-script1",
+					"PixelOverlay/script-repository-script2"
+				]
+			}
+		}
+	]
 }
