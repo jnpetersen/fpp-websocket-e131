@@ -1,0 +1,7 @@
+{
+    "pluginName": "E1.31 WebSocket Transmitter",
+    "pluginDescription": "Streams E1.31 data over WebSocket for external device control.",
+    "author": "Your Name",
+    "version": "1.0",
+    "license": "MIT"
+}
